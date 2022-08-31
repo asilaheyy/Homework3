@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-
-        //1
+        //Переменные второй урок
+        //1.
         int x = 2;
         byte a = 4;
         short b = 6;
