@@ -19,10 +19,10 @@ public class Main {
         double d = 27.12;
         long l =  987678965549L;
         float f = 2.786f;
-        boolean B = false;
+        boolean truefalse = false;
         short i = 569;
-        int X = -159;
-        int I = 27897;
+        int z = -159;
+        int w = 27897;
         byte s = 67;
 
         //3
@@ -38,13 +38,15 @@ public class Main {
         int bottlesInTwoMins = 16;
         int bottlesInOneMin = bottlesInTwoMins/2;
         int bottlesInTwentyMins = bottlesInTwoMins*10;
-        int minutesInOneDay =1440;
+        int minutesPerHour = 60;
+        int hoursPerDay= 24;
+        int minutesInOneDay= minutesPerHour*hoursPerDay;
         int bottlesInOneDay = bottlesInOneMin*minutesInOneDay;
         int bottlesInThreeDays = bottlesInOneDay*3;
         int bottlesInOneMonth = bottlesInOneDay*30;
         System.out.println("За 20 минут машина производит "+bottlesInTwentyMins+" бутылок.");
-        System.out.println("За сутки минут машина производит "+bottlesInOneDay+" бутылок.");
-        System.out.println("За трое суток минут машина производит "+bottlesInThreeDays+" бутылок.");
+        System.out.println("За сутки  машина производит "+bottlesInOneDay+" бутылок.");
+        System.out.println("За трое суток машина производит "+bottlesInThreeDays+" бутылок.");
         System.out.println("За месяц машина производит "+bottlesInOneMonth+" бутылок.");
 
         //5.
@@ -111,12 +113,12 @@ public class Main {
         System.out.println("Годовой доход Дениса после повышения "+oneYearIncomeIncreasedDenis+" руб.");
         System.out.println("Годовой доход Кристины после повышения "+oneYearIncomeIncreasedKristina+" руб.");
 
-        double OneYearIncomeDifferenceMasha = oneYearIncomeIncreasedMasha-oneYearIncomeMasha;
-        double OneYearIncomeDifferenceDenis = oneYearIncomeIncreasedDenis-oneYearIncomeDenis;
-        double OneYearIncomeDifferenceKristina = oneYearIncomeIncreasedKristina-oneYearIncomeKristina;
-        System.out.println("Годовой доход Маши вырос на "+OneYearIncomeDifferenceMasha+" рублей.");
-        System.out.println("Годовой доход Дениса вырос на "+OneYearIncomeDifferenceDenis+" рублей.");
-        System.out.println("Годовой доход Кристины вырос на "+OneYearIncomeDifferenceKristina+" рублей.");
+        double oneYearIncomeDifferenceMasha = oneYearIncomeIncreasedMasha-oneYearIncomeMasha;
+        double oneYearIncomeDifferenceDenis = oneYearIncomeIncreasedDenis-oneYearIncomeDenis;
+        double oneYearIncomeDifferenceKristina = oneYearIncomeIncreasedKristina-oneYearIncomeKristina;
+        System.out.println("Годовой доход Маши вырос на "+oneYearIncomeDifferenceMasha+" рублей.");
+        System.out.println("Годовой доход Дениса вырос на "+oneYearIncomeDifferenceDenis+" рублей.");
+        System.out.println("Годовой доход Кристины вырос на "+oneYearIncomeDifferenceKristina+" рублей.");
 
 
     }
